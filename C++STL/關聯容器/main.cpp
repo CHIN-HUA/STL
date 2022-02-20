@@ -44,11 +44,11 @@ namespace Set{
         std::cout << ms.count(3) << '\n';
     }
 
-    void testMerge(){
+    /*void testMerge(){
         std::set<int> S{1, 2, 3, 4};
         S.merge(std::set<int>{5, -1});
         std::cout << S.size() << '\n';
-    }
+    }*/
 }
 
 
@@ -59,6 +59,6 @@ int main()
 
    //Set::testMultiSet();
 
-   Set::testMerge();
+   //Set::testMerge();
     return 0;
 }
