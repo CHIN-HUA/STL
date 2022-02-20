@@ -57,7 +57,7 @@ int main()
 {
    //Set::testSet();
 
-   //Set::testMultiSet();
+   Set::testMultiSet();
 
    //Set::testMerge();
     return 0;
